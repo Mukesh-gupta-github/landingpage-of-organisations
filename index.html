@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display:ital,wght@1,800&family=Poppins:ital,wght@0,300;0,700;1,600&display=swap" rel="stylesheet">
+    <style>
+        *{
+         padding:0;
+        margin:0;
+        box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+background-attachment: fixed;
+
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+           
+        }
+        main{
+            margin: 0 100px;
+        }
+       
+        .heading{
+            display: flex;
+            text-align: center;
+            
+            
+            
+            
+        }
+       
+        .navbar{
+            display: flex;
+            list-style: none;
+           gap: 25px;
+           margin-right: 700px;
+           margin-top: 28px;
+           margin-left: 40px;
+           
+        }
+        li a{
+            text-decoration: none;
+            color: #000000;
+            
+             }
+
+             li a:hover{
+                text-decoration: underline;
+               
+
+             }
+
+        .logo{
+            width: 120px;
+            height: 45px;
+            margin-top: 14px; 
+             /* margin-left: 15px; */
+
+        }
+            
+        
+        
+        
+        .contact{
+            margin-top: 25px;
+            /* margin-right: 25px; */
+             
+            background-color:#8a2be2;
+            color: white;
+            cursor: pointer;
+          
+           border-radius: 8px;
+           text-align: center;
+           padding: 5px 10px;
+           width: 100px;
+        }
+        .hero-section{
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        div h1{
+            font-size: 50px;
+            width: 400px;
+            margin-bottom: 10px;
+        }
+        div h1 span{
+            color: #8a2be2;
+        }
+        .Illustration{
+            height:430px;
+             width:550px;
+             margin-top: 35px;
+
+        }
+        div p{
+            margin: 10px 0px;
+            font-weight: 500;
+            width: 600px;
+        }
+        .description-button{
+            margin-top: 25px;
+            padding: 8px 15px;
+            border-radius: 8px;
+            text-align: center;
+            background-color: #8a2be2;
+            color: #ffffff;
+        }
+        button:hover{
+            color: #000000;
+            background-color: #ffffff;
+            cursor: pointer;
+           
+        }
+        .para-heading{
+            margin-top: 20px;
+        }
+       
+    </style>
+
+</head>
+<body>
+    <main>
+        <header>
+            <div class="heading">
+                <div ><img class="logo"   src="assets/Logo.png" alt=""></div>
+                <div>
+                    <ul class="navbar">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a> </li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        
+                    </ul>
+               
+                </div>
+                <div>
+                    <button class="contact">Contact Us</button>
+                </div>
+            </div>
+        </header>
+        <section class="hero-section">
+            <!-- hero-left-section -->
+            <div>
+                <div class="para-heading">
+                    <h1>We Help You <span>Crush</span>  Your Competition</h1>
+                    <p>Build trust to connect your brand to billions of users and grow your revenue  through SEO</p>
+                </div>
+                    <button class="description-button">See our services</button>
+                
+                
+    
+            </div>
+            <div>
+                <div><img  class="Illustration" src="assets/Header Illustration.png" alt="" ></div>
+            </div>
+    
+        </section>
+
+    </main>
+   
+</body>
+</html>
